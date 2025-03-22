@@ -1,10 +1,3 @@
-Perfect! Here's a clean and professional **README.md** file you can use for your GitHub repository named:
-
-> **Cluber For Chrome**
-
----
-
-```markdown
 # Cluber For Chrome 🧃  
 A lightweight Chrome Extension built for **Daegu International School (DIS)** students and staff — view **today's events**, **upcoming calendar items**, and the **daily lunch menu** directly from your browser.
 
