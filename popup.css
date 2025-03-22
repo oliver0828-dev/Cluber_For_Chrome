@@ -1,0 +1,29 @@
+body {
+    font-family: "SF Pro", "Helvetica Neue", Arial, sans-serif;
+    background-color: #e6e6e6;
+    width: 320px;
+    padding: 16px;
+    border-radius: 16px;
+    color: #000;
+}
+
+h2 {
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+div {
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #aaa;
+    margin-bottom: 16px;
+}
