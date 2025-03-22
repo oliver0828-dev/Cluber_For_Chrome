@@ -59,10 +59,6 @@ MIT License — free to use, modify, or build upon.
 
 ## ✨ Author
 
-Made with 🍎 and 💻 by [Oliver Park](https://github.com/your-username)  
+Made with 🍎 and 💻 by [Oliver Park](https://github.com/oliver0828-dev)  
 📧 Contact: `oliverco0828@gmail.com`
-```
-
----
-
-Let me know if you'd like help customizing the GitHub repo with badges, a live demo GIF, or links to your Notion pages for privacy/support!
+[Website](https://ollie-dev.notion.site/Cluber-for-Chrome-1be94a6b9e45809a8507e27a9feabf5b)
