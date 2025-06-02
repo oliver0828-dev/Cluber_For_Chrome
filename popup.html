@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>DIS Today</title>
   <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <h2>Today</h2>
-  <div id="today-event" class="section">Loading today's event...</div>
+  <div class="container">
+    <button id="refresh-button">Refresh</button>
+    <section>
+      <h2>Today</h2>
+      <div id="today-events" class="event-container"></div>
+    </section>
 
-  <h2>Upcoming Events</h2>
-  <div id="upcoming-events" class="section">Loading upcoming events...</div>
+    <section>
+      <h2>Tomorrow</h2>
+      <div id="upcoming-events" class="event-container"></div>
+    </section>
 
-  <hr>
+    <section>
+      <h2>Lunch</h2>
+      <div id="lunch-menu" class="event-container"></div>
+    </section>
 
-  <h2>Lunch Menu</h2>
-  <div id="lunch-menu" class="section">Loading lunch menu...</div>
+    <footer>
+      <button id="theme-toggle">Toggle Theme</button>
+
+      <p id="last-updated">Last updated: Never</p>
+      
+    </footer>
+  </div>
 
   <script src="popup.js"></script>
 </body>
