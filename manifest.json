@@ -1,20 +1,74 @@
-{
-    "manifest_version": 3,
-    "name": "Cluber for Chrome",
-    "version": "1.0",
-    "permissions": ["scripting"],
-    "host_permissions": [
-      "https://www.googleapis.com/calendar/v3/*",
-      "https://www.dis.sc.kr/*"
-    ],
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #f2f2f7;
+  color: #1c1c1e;
+  width: 320px;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
 
-    "icons": {
-    "16": "iconBlue16.png",
-    "48": "iconBlue48.png",
-    "128": "iconBlue128.png"
-  },
-    "action": {
-      "default_popup": "popup.html"
-    }
-  }
-  
+body.dark-mode {
+  background-color: #1c1c1e;
+  color: #f2f2f7;
+}
+
+.container {
+  padding: 12px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.event-container {
+  background: #f0f0f0;
+  border-radius: 14px;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+body.dark-mode .event-container {
+  background: #2c2c2e;
+}
+
+.event-item, .lunch-item {
+  background: #e0e0e0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 8px;
+  box-shadow: none; /* Remove blue borders/shadows */
+}
+
+body.dark-mode .event-item, body.dark-mode .lunch-item {
+  background: #3a3a3c;
+}
+
+footer {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 12px;
+  background-color: #007aff;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #005ecb;
+}
